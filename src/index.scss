@@ -26,6 +26,9 @@ body {
     &.minus {
       color: #e63946;
     }
+    &.reset {
+      color: #118a30;
+    }
   }
 
   h2 {
@@ -42,7 +45,7 @@ body {
     border-radius: 15px;
     padding: 10px 25px;
     cursor: pointer;
-    margin: 0 10px;
+    margin: 0 10px 10px 0;
     transition: all 0.05s ease-in-out;
 
     &.minus {
@@ -56,6 +59,12 @@ body {
       background-color: #2a9d8f;
       color: #fff;
       box-shadow: 0 4px 0 darken(#2a9d8f, 10%);
+      border: 1px solid darken(#2a9d8f, 15%);
+    }
+    &.reset {
+      background-color: #1a7c13;
+      color: #fff;
+      box-shadow: 0 4px 0 darken(#074c23, 10%);
       border: 1px solid darken(#2a9d8f, 15%);
     }
 
